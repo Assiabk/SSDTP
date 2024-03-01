@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            color: #007BFF;
+        }
+
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            margin-top: 10px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Update User</h1>
+    <form method="post" action="{{ url_for('update_user', user_id=user_info['_id']) }}">
+        <label for="new_username">New Username:</label>
+        <input type="text" id="new_username" name="new_username" value="{{ user_info.username }}" required>
+        
+        <label for="new_email">New Email:</label>
+        <input type="email" id="new_email" name="new_email" value="{{ user_info.email }}" required>
+
+        <!-- Add input fields for other user attributes (birthdate, location, is_admin, etc.) -->
+
+        <button type="submit">Update User</button>
+    </form>
+    <a href="{{ url_for('admin_dashboard') }}">Back to Admin Dashboard</a>
+</body>
+</html>

@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "65dd409b5bfb29c36821a2ef"
+  },
+  "id": 1,
+  "user_id": "65dd2804f9cf93f38ab25a42",
+  "title": "ssd",
+  "content": "ppppppppppppppppppppppppppppp"
+},
+{
+  "_id": {
+    "$oid": "65dd4264060f6eac62784b9d"
+  },
+  "id": 2,
+  "user_id": "65dd2804f9cf93f38ab25a42",
+  "title": "Oumaima",
+  "content": "mimimimimi"
+},
+{
+  "_id": {
+    "$oid": "65dd4454cd491c0132d1e2a9"
+  },
+  "id": 3,
+  "user_id": "65dd2804f9cf93f38ab25a42",
+  "title": "uuuuuuuuuuuuu",
+  "content": "qwertyuio"
+},
+{
+  "_id": {
+    "$oid": "65dd50f22a8926ba746b768c"
+  },
+  "id": 5,
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "title": "hello world",
+  "content": "hello world it's the most popular that all developere write it first"
+},
+{
+  "_id": {
+    "$oid": "65dd52e3490d8905510af0e1"
+  },
+  "id": 6,
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "title": "oo",
+  "content": "jjjjjjjjjjjjjjjjjjjjjjjjjjjj"
+},
+{
+  "_id": {
+    "$oid": "65dd5353a3a2e0cc18205b3c"
+  },
+  "id": 7,
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "title": "rwhjbfoiueriu",
+  "content": "kjhgfdsxzcvbjnkjuygf"
+},
+{
+  "_id": {
+    "$oid": "65dd55d87d3776fabcea520b"
+  },
+  "id": 8,
+  "user_id": "65dd55447d3776fabcea520a",
+  "title": "Semi Structured Data",
+  "content": "it's a module in our 6 th semester in our 3rd year as computer systems student"
+},
+{
+  "_id": {
+    "$oid": "65dda422eb45b9d957c31f1d"
+  },
+  "id": 9,
+  "user_id": "65dd7e1b967308529d60091e",
+  "title": "lala;a",
+  "content": "lkjhyufcvgbh"
+},
+{
+  "_id": {
+    "$oid": "65de48ff204c75b68dd4b40e"
+  },
+  "id": 9,
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "title": "hello from Ghardaia",
+  "content": "hello from Ghardaia"
+},
+{
+  "_id": {
+    "$oid": "65de4c69ec79e67a03090daa"
+  },
+  "id": 10,
+  "user_id": null,
+  "title": "poiyrewasdfghjkl,mnb",
+  "content": "0000000000000000"
+},
+{
+  "_id": {
+    "$oid": "65de516628c612414b9cad6e"
+  },
+  "id": 11,
+  "user_id": "65de512e28c612414b9cad6d",
+  "title": "this is my first post",
+  "content": "lala's first post"
+},
+{
+  "_id": {
+    "$oid": "65de541eabaf8dea88e3bb1a"
+  },
+  "id": 12,
+  "user_id": "65de512e28c612414b9cad6d",
+  "title": "second ost",
+  "content": "second post of lala"
+},
+{
+  "_id": {
+    "$oid": "65de5ff4eb708b411aa88edb"
+  },
+  "id": 13,
+  "user_id": "65de512e28c612414b9cad6d",
+  "title": "hhhhhhh",
+  "content": "oiuytredfg"
+},
+{
+  "_id": {
+    "$oid": "65de730e5d6af4116597015e"
+  },
+  "id": 14,
+  "user_id": "65de72f05d6af4116597015d",
+  "title": "MIna  ",
+  "content": "Mina first post"
+},
+{
+  "_id": {
+    "$oid": "65de80d440095dce734c7440"
+  },
+  "id": 15,
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "title": "post",
+  "content": "qwertyuioiytfrdss"
+}]

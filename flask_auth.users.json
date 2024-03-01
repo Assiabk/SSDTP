@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "65dd36610b1fbf63cf325d9d"
+  },
+  "username": "asma",
+  "email": "benkhelifaassia80@gmail.com",
+  "password": "scrypt:32768:8:1$2jknwxM1MjptOYIm$1dfbaee876e28f915ceecc8a2af83fa666475772de96bcf7587c35b12c7069a71d76be04e6000fec04d9fd0683dd90312b087678ab7bdaeabf66719c19d94c3a"
+},
+{
+  "_id": 5,
+  "username": "khaled",
+  "email": "assia@gmail.com",
+  "password": "scrypt:32768:8:1$eAh80JSCcTSa5S7G$04c5d6054e542e97b16ceaf1e3953c859f3aa5ea54b28f580bae1db64062a79bc040eaec030a5906b567f8fa6c8f09022d76b95f8ac4c1a789ca737f7fdcba95"
+},
+{
+  "_id": {
+    "$oid": "65dd495ea26690a67239d781"
+  },
+  "username": "jane",
+  "email": "jane@gmail.com",
+  "password": "scrypt:32768:8:1$iiusNy5ZYDHtdj4J$61acb1461453d210a3dd2581f87ecfd6c3591f75d6a488fcfbd236786448ea9d8c0f06d330702bbc59c756406c62f2b3cbb2477b6ac7565d6c49040f70f63329",
+  "birthdate": {
+    "$date": "1990-08-01T00:00:00.000Z"
+  },
+  "location": "otaw"
+},
+{
+  "_id": {
+    "$oid": "65dd4b9294379a7419da30d1"
+  },
+  "username": "lily",
+  "email": "assia12@gmail.com",
+  "password": "scrypt:32768:8:1$ccOJfEgZZiQxAP4B$580b588446da7d11194b4bdd81b51de3f4e77c2c12c34169ef40d576ace1f068de53e484962c816c4f9d992bb1588ab4a38f3e7c3219dfff1182515079fba597",
+  "birthdate": {
+    "$date": "2009-08-06T00:00:00.000Z"
+  },
+  "location": "new york"
+},
+{
+  "_id": {
+    "$oid": "65dd4ebb51eb889b90ec9122"
+  },
+  "username": "Jon",
+  "email": "jon@gmail.com",
+  "password": "scrypt:32768:8:1$2MQTgnI7GJvJp8iJ$0b4aeec30c0c863436e367d927382afd7f1bd5949480528a907f918d07e07f997a669c98a66d540aaa7a9c0bfc7a4af1954bae02e12c5737a431e6e008e7c832",
+  "birthdate": {
+    "$date": "1992-03-01T00:00:00.000Z"
+  },
+  "location": "canada"
+},
+{
+  "_id": {
+    "$oid": "65dd55447d3776fabcea520a"
+  },
+  "username": "Assia_Benkhelifa",
+  "email": "assiabk129@gmail.com",
+  "password": "scrypt:32768:8:1$sZnxs0fxnr6Pbu0H$2d224069b011587a0c1aa4fc6d60f93e0c1c5037ee217b41b0b94d50195849bf5a6584464ca64702a4e1d9dda0a2251f5df1166814e636f1ba04143d313a4c8c",
+  "birthdate": {
+    "$date": "2004-01-08T00:00:00.000Z"
+  },
+  "location": "Metlili chammba Ghardaia"
+},
+{
+  "_id": {
+    "$oid": "65dd794f8acc659078d774c5"
+  },
+  "username": "Alice cullen",
+  "email": "alice@gmail.com",
+  "password": "scrypt:32768:8:1$fXmw5RPzVUqYDwvv$eed178f88f79a98fdf1c450aac8612a08071f469b338b4f65d49a60a3f914403382ddfecd6f58caad00f00b149e800df08b42f369ef5e10a6e359c7cb97f6f3b",
+  "birthdate": {
+    "$date": "1996-01-02T00:00:00.000Z"
+  },
+  "location": "Arizona",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65dd7abc737d5dfac72bece7"
+  },
+  "username": "Jasper",
+  "email": "jasper@gmail.com",
+  "password": "scrypt:32768:8:1$vqOdHDCljzosv0PP$24d2ee941e07532968931c3be67dc7f19d06a38e418a4522525975be161a38c8884f6bb3584801222a1f2c2b150aee73074a7e081ec2f343a1ca24dbb163af4e",
+  "birthdate": {
+    "$date": "2004-09-07T00:00:00.000Z"
+  },
+  "location": "toronto",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65dd7cfc11881a933645620e"
+  },
+  "username": "Albert",
+  "email": "albert@gmail.com",
+  "password": "scrypt:32768:8:1$e3lzjCOKRTpmGEAq$9334d6934350c11d603ba85b8663f88098fefd253f445f3207ffd7e3530cf9ba8c82d634c7ac6f8b454058b4c2a37c5aae191bfe29a1c8c3ebc5bc81f077b069",
+  "birthdate": {
+    "$date": "2000-09-01T00:00:00.000Z"
+  },
+  "location": "paris",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65dd7d7f72ef39170435bc64"
+  },
+  "username": "sara",
+  "email": "sara@gmail.com",
+  "password": "scrypt:32768:8:1$pgS8vTQJL2BU5yUL$fc71da13ebefdaf419bd902ad81a7bbf9396db46df34312c7c1a91fe21bad3b3009ba3b5ff7c2085b22e3f07615aee3d2b81bb21445478987e5fe7273295a087",
+  "birthdate": {
+    "$date": "2003-09-07T00:00:00.000Z"
+  },
+  "location": "algeria",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65dd7e1b967308529d60091e"
+  },
+  "username": "gabrielle",
+  "email": "gab@gmail.com",
+  "password": "scrypt:32768:8:1$aI3TTFgCv82aupv8$e58a7230ec8812068e4701f291efa8fc66b6c2037fac02d29ced92962145d80f61b6dc7088484c68bcfdab6d3664555ee8c26e2823463277b9a6fe02782e8ccb",
+  "birthdate": {
+    "$date": "2007-01-05T00:00:00.000Z"
+  },
+  "location": "paris",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65dd8d237ddb2590ab8271b6"
+  },
+  "username": "pole",
+  "email": "pole@gmail.com",
+  "password": "scrypt:32768:8:1$uDKCRaitMoGQTZec$539de1e4b1aab14e88071dd2f6a1a09ea68e32d8bb70f29446f739b179825f9014339c728e918634ee671422ddbbf653e3820064fe9cedc02c8ab9b57c62e6b1",
+  "birthdate": {
+    "$date": "2024-02-06T00:00:00.000Z"
+  },
+  "location": "lllllllllllll",
+  "is_admin": false
+},
+{
+  "_id": {
+    "$oid": "65de4c1fec79e67a03090da8"
+  },
+  "username": "rozalie",
+  "email": "roze@gmail.com",
+  "password": "scrypt:32768:8:1$HhFisc4GmsUluOyc$e5085b5cf87900b3274f10bb33fccddf24196103ed3fcd3990147e904f4d0813c34e012666b876d0ac76845909b9ed74c02406449e10e326753f21f02a1fa1a8",
+  "birthdate": {
+    "$date": "2004-08-01T00:00:00.000Z"
+  },
+  "location": "Arizona",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65de4c47ec79e67a03090da9"
+  },
+  "username": "fredric",
+  "email": "fredric@gmail.com",
+  "password": "scrypt:32768:8:1$LhyYMJYRdpBUBScE$6f7bba1cb6cef9a34bde15bfb6fcfe1f0f3e07b59eda35b43630c2434c453f16efc8942ae3e1291374293ea55912ec890efb61a34eb1937925d9e33cc18b9207",
+  "birthdate": {
+    "$date": "2024-02-07T00:00:00.000Z"
+  },
+  "location": "toronto",
+  "is_admin": false
+},
+{
+  "_id": {
+    "$oid": "65de512e28c612414b9cad6d"
+  },
+  "username": "lala",
+  "email": "lala13@gmail.com",
+  "password": "scrypt:32768:8:1$dtTwAyWrecvPUFDL$3d1f0cccc863c532ca549c3e465a1a928d68b97fa488e1904d62a0775991dabd17d2295f4d447d97e3ae7cac1f91ec0ff96ff1685e7f13a43dec9b9188d22434",
+  "birthdate": {
+    "$date": "2005-08-06T00:00:00.000Z"
+  },
+  "location": "Annaba",
+  "is_admin": false
+},
+{
+  "_id": {
+    "$oid": "65de72f05d6af4116597015d"
+  },
+  "username": "mina12",
+  "email": "mina99@gmail.com",
+  "password": "scrypt:32768:8:1$3iLWdUKwLfxqtUBs$149c929cfaa4d17abc8e8fb52fee36d731a6faaee4e2d98c28751036fad20ebe84a8c81176d2dff6e879eff7746d1f7eafdf8b47449faedaef71349e1bd3865b",
+  "birthdate": {
+    "$date": "2009-12-18T00:00:00.000Z"
+  },
+  "location": "Ghardaia",
+  "is_admin": false
+},
+{
+  "_id": {
+    "$oid": "65de73be5d6af41165970160"
+  },
+  "username": "mohamed",
+  "email": "mohamed@gmail.com",
+  "password": "scrypt:32768:8:1$jNA5lTeKbvCaMiGY$d56add3f20fcd41582222cbe32ee325176bc29f5540f49da13442b5d5c800e9588b763585423c577b9b56523d7053e9b47a8d69f66a507745943d305c4972ab4",
+  "birthdate": {
+    "$date": "2009-12-18T00:00:00.000Z"
+  },
+  "location": "Ghardaia",
+  "is_admin": true
+},
+{
+  "_id": {
+    "$oid": "65de808340095dce734c743f"
+  },
+  "username": "ahme",
+  "email": "ahmed@gmail.com",
+  "password": "scrypt:32768:8:1$XCBJjDrzA5GqTcnt$d9b75bda8ec32e25e9905b2e7a1930da2be127ad29d469f81ebe4301a71962bbddf9edc7af7a6fdcf3e2b4d5a7172727307df4a75002e9bb35a32e56e590ce00",
+  "birthdate": {
+    "$date": "2003-09-01T00:00:00.000Z"
+  },
+  "location": "ghardaia",
+  "is_admin": true
+}]

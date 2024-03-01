@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "65dd3f773c53832f3f4844be"
+  },
+  "post_id": "1",
+  "comment_id": 1,
+  "text": "lol",
+  "user_id": "65dd2804f9cf93f38ab25a42"
+},
+{
+  "_id": {
+    "$oid": "65dd522bcadbfba1477db740"
+  },
+  "id": 2,
+  "post_id": "4",
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "text": "jjjjjjj"
+},
+{
+  "_id": {
+    "$oid": "65dd52ea490d8905510af0e2"
+  },
+  "id": 3,
+  "post_id": "6",
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "text": "iuytrew"
+},
+{
+  "_id": {
+    "$oid": "65de530a1829aad861aa24ea"
+  },
+  "id": 4,
+  "post_id": "11",
+  "user_id": "65de512e28c612414b9cad6d",
+  "text": "lala's second comment"
+},
+{
+  "_id": {
+    "$oid": "65de5440abaf8dea88e3bb1b"
+  },
+  "id": 5,
+  "post_id": "12",
+  "user_id": "65de512e28c612414b9cad6d",
+  "text": "third comment"
+},
+{
+  "_id": {
+    "$oid": "65de6004eb708b411aa88edc"
+  },
+  "id": 6,
+  "post_id": "13",
+  "user_id": "65de512e28c612414b9cad6d",
+  "text": "yyyyyyyyyyyyyyyyyyy"
+},
+{
+  "_id": {
+    "$oid": "65de73175d6af4116597015f"
+  },
+  "id": 7,
+  "post_id": "14",
+  "user_id": "65de72f05d6af4116597015d",
+  "text": "mina's first comment"
+},
+{
+  "_id": {
+    "$oid": "65de80e140095dce734c7441"
+  },
+  "id": 8,
+  "post_id": "15",
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "text": "assia"
+},
+{
+  "_id": {
+    "$oid": "65e03036b771ccaf34e5309b"
+  },
+  "id": 9,
+  "post_id": "5",
+  "user_id": "65dd4ebb51eb889b90ec9122",
+  "text": "POIUYTREWQASDFFGHJKL;'.,MNVVCXz"
+}]

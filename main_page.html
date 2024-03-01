@@ -1,0 +1,145 @@
+<!-- main_page.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Social Page</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+        margin-top: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        background-color: #45a049;
+    }
+
+    hr {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+    
+    .profile-link {
+        margin-top: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #0b9720;
+    }
+    
+    .comment-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .comment-item {
+        margin-bottom: 10px;
+    }
+
+    .comment-text {
+        font-style: italic;
+    }
+</style>
+<body>
+    <h1>Welcome to My Social Page!</h1>
+    <a href="{{ url_for('profile') }}" class="profile-link">View Profile</a>
+    <!-- Form to create a new post -->
+    <form action="{{ url_for('main_page') }}" method="post">
+        <label for="post_title">Post Title:</label>
+        <input type="text" id="post_title" name="post_title" required>
+
+        <label for="post_content">Post Content:</label>
+        <textarea id="post_content" name="post_content" required></textarea>
+
+        <button type="submit" name="add_post">Create Post</button>
+    </form>
+
+    <hr>
+
+    {% if user_posts %}
+        <h2>Your Posts:</h2>
+        <ul>
+            {% for post in user_posts %}
+                <li>
+                    <strong>{{ post.title }}</strong><br>
+                    {{ post.content }}
+                    
+                    <!-- Form to add a comment -->
+                    <form action="{{ url_for('main_page') }}" method="post">
+                        <input type="hidden" name="post_id" value="{{ post.id }}">
+                        <label for="comment_text">Add a Comment:</label>
+                        <input type="text" id="comment_text" name="comment_text" required>
+                        <button type="submit" name="add_comment">Add Comment</button>
+                    </form>
+                    
+              
+                    {% if comments[post.id] %}
+                        <ul class="comment-list">
+                            {% for comment in comments[post.id] %}
+                                <li class="comment-item">
+                                    <span class="comment-text">{{ comment.text }}</span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>You haven't created any posts yet. Create one now!</p>
+    {% endif %}
+</body>
+</html>
